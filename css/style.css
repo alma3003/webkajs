@@ -1,0 +1,101 @@
+body{
+  font-family: Dongle;
+}
+
+#title{
+  background-color: #F9F3DF;
+  color:#FF865E;
+}
+.peri{
+  width:60%;
+  margin-left: 100px;
+  margin-top: 100px;
+
+}
+.myth{
+  margin-top: 100px;
+}
+h1{
+  font-family: Dongle;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color:#FF865E;
+}
+h3{
+  font-size: 2em;
+  font-family: Dongle;
+  font-weight: 300;
+  line-height: 1;
+  color:#FF865E;
+}
+
+h5{
+  font-family: Dongle;
+  line-height: 1;
+  color:#FF865E;
+}
+
+.h33{
+  font-weight: bold;
+}
+.p{
+  font-size: 1.3rem;
+  color: #876445;
+}
+.container-fluid{
+  padding: 3% 15% 20%;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 2rem;
+}
+.nav-item{
+  padding: 0 15px;
+}
+.navbar{
+  padding-bottom: 5 0 5rem 0;
+}
+.btn{
+  margin: 2% 2% 0 80%;
+}
+#books{
+  padding: 7% 15%;
+  text-align: center;
+}
+.box{
+  padding: 5%;
+}
+.h33:hover{
+  color:#F9F3DF;
+}
+#test{
+  text-align: center;
+  background-color: #FF865E;
+  color:#fff;
+}
+.img{
+  width:30%;
+  border-radius: 100%;
+  margin: 20px;
+}
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+em{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.imgg{
+  style="border-top-left-radius:3rem;
+  border-top-right-radius:3rem;
+  width: 60%;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mythology login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/login.css">
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="https://kit.fontawesome.com/95dda36ed8.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+<section id="title">
+  <div class="container-fluid">
+
+
+<!-- Nav Bar -->
+
+ <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="main menu.html"> &#128214; myth</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+       <a class="nav-link" href="main menu.html">Main menu</a>
+    </li>
+    <li class="nav-item">
+       <a class="nav-link" href="information.html">Information</a>
+    </li>
+    <li class="nav-item">
+       <a class="nav-link" href="login.html">Login</a>
+    </li>
+    <li class="nav-item">
+       <a class="nav-link" href="contacts.html">Contacts</a>
+    </li>
+  </ul>
+  </div>
+</nav>
+
+<!--registration form-->
+<br><br>
+<div class="container_login">
+  <form action="/action_page.php">
+
+    <div class="h1_signup">
+      <h1 id="SignUp" style="SignUp">Creative SignUp Form</h1>
+    </div>
+    <input type="text" id="name" name="name" required placeholder="First Name">
+
+    <input type="text" id="lname" name="lname" required placeholder="Last Name">
+
+    <input type="text" id="email" name="email" required  placeholder="Email">
+
+    <input type="password" id="psw" name="psw"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required placeholder="Create password">
+
+    <input type="password" id="repeat" name="repeat" required  placeholder="Confirm Password">
+    <br><br>
+    <input type="checkbox" onclick="myFunction12()" class="show">
+    <h5 class="show1">Show password</h5>
+
+    <input class="submition" type="submit" value="Submit">
+  </form>
+</div>
+
+<div id="message">
+  <h3 class="psw_111">Password must contain the following:</h3>
+  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+  <p id="number" class="invalid">A <b>number</b></p>
+  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+</div>
+
+    <br>
+    <p id="p22" style="margin-left:250px; margin-top: 120px; font-size:1.3rem;">Already have account? <a href="login.html" style="margin-left:10px; font-size:1.3rem;"> Sign Up!</a></p>
+    <div onmousemove="myFunction()" onmouseout="clearCoor()"></div>
+
+   <div class="colorlibcopy-agile">
+   <p style="margin-left:250px; margin-top: 10px; ">© 2022 Mythology Signup Form. All rights reserved | Design by <a href="https://www.instagram.com/alma_wlvlw/" target="_blank">alma_wlvlw</a></p>
+   </div>
+
+<!--contacts-->
+<br>
+<br>
+<br>
+<section id="contacts">
+  <div class="row">
+<div class="box col-lg-4">
+  <h3 class="h32">Contacts:</h3>
+  <p class="p">number:87778023870</p>
+<p class="p">Instagram:alma_wlvlw</p>
+</div>
+<div class="box col-lg-4">
+  <h3  class="h32">Books:</h3>
+  <p class="p">Myth of Greek</p>
+  <p class="p">Mythology of Central Asia</p>
+</div>
+<div class="box col-lg-4">
+  <h3  class="h32">Instagram:</h3>
+  <p class="p">Instagram:alma_wlvlw</p>
+</div>
+</div>
+
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="javascript2.js" charset="utf-8"></script>
+<script src="javalogin.js"  charset="utf-8"> </script>
+
+    </body>
+</html>
